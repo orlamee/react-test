@@ -5,7 +5,7 @@ import  { STUDENTS } from '../studentsList';
 import ResidentsList from '../Components/ResidentsList';
 
 
-// `joiningDate` && `validityDate` format "yyyy-mm-dd"
+// `joiningDate` && `validityDate`  "yyyy-mm-dd"
 
 function checkValidity(joiningDate, validityDate) {
 	const now = new Date();
